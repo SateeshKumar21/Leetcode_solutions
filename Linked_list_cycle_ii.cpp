@@ -3,7 +3,7 @@ public:
     ListNode *detectCycle(ListNode *head) {
         
         unordered_set<ListNode*> node_set;
-        
+        int y = 0;
         ListNode* ptr = head;
         
         while(ptr != NULL){
